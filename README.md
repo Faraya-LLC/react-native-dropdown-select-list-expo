@@ -144,7 +144,8 @@ For Live `Demo` [(Expo Snack)](https://snack.expo.dev/@danish1658/react-native-d
 | arrowicon| JSX Element | Pass any JSX to this prop like Text, Image or Icon to show instead of chevron icon
 | closeicon| JSX Element | Pass any JSX to this prop like Text, Image or Icon to show instead of close icon
 | searchPlaceholder| String | Custom placeholder text for search TextInput
-| defaultOption| Object | Pass default selected option in key value pair
+| defaultOption| Object | <b>[SelectList]</b> Pass default selected option in key value pair
+| defaultOptions| Array | <b>[MultipleSelectList]</b> Pass array of default selected options as key value pairs
 | fontFamily| string | Pass font name to apply globally on each text field of component
 | notFoundText| string | Pass your custom message if any search result returns empty
 | dropdownShown| boolean | Control your dropdown ( on & off ) state by changing its value to true or false
@@ -240,7 +241,7 @@ const App = () => {
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | label| string| Pass any string to be placed instead of default label
-
+| selectedLabel| string| Pass any string to be placed at the top of the list of selected values 
 
 <br>
 
